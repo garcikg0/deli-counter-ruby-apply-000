@@ -12,10 +12,13 @@ def line(katz_deli)
 end
 end
 
-def take_a_number(katz_deli, name)
-  katz_deli.push(name)
-  puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
+def take_a_number
+  order_number = 0
+  
+  puts "You are order number #{order_number}."
 end
+puts take_a_number
+
 
 def now_serving(katz_deli)
   if katz_deli.length == 0
