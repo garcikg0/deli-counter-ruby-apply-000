@@ -18,6 +18,8 @@ def take_a_number
   puts "You are order number #{order_number}."
 end
 puts take_a_number
+puts take_a_number
+puts take_a_number
 
 
 def now_serving(katz_deli)
