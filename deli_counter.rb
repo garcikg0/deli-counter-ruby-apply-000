@@ -7,6 +7,7 @@ def line(katz_deli)
     info = "The line is currently:"
     katz_deli.each_with_index do |value, index|
     info += " #{index.to_i+1}. #{value}"
+    end
   end
   puts info
 end
@@ -23,5 +24,4 @@ def now_serving(katz_deli)
     puts "Currently serving #{katz_deli.first}."
     katz_deli.shift
   end
-end
 end
