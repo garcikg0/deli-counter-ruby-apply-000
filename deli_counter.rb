@@ -8,8 +8,8 @@ def line(katz_deli)
     katz_deli.each_with_index do |value, index|
     info += " #{index.to_i+1}. #{value}"
     end
-  end
   puts info
+end
 end
 
 def take_a_number(katz_deli, name)
